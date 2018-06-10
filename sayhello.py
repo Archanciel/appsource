@@ -3,7 +3,7 @@ class SayHello:
         self.firstName, self.lastName = fullName.split(' ')
 
     def greet(self):
-        return 'Hello ' + self.firstName + ' ' + self.lastName + ' !'
+        return 'Hello ' + self.firstName + ' ' + self.lastName + ', how are you doing ?'
 
 s = SayHello('Philippe Brolly')
 print(s.greet())
