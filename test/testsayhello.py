@@ -16,4 +16,4 @@ class TestSayHello(unittest.TestCase):
         name = 'Philippe Brolly'
         s = SayHello(name)
 
-        self.assertEqual('Hello ' + name + ' !', s.greet())
+        self.assertEqual('Hello ' + name + ', how are you doing ?', s.greet())
